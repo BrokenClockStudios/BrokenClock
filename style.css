@@ -7,7 +7,7 @@ body {
   grid-column-gap: 0px;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto 300px;
-
+  cursor: crosshair;
 }
 .mptop {
   color: white;
@@ -24,11 +24,30 @@ body {
   font-size: 75px;
   font-family: 'Poppins', sans-serif;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: crosshair;
 }
 
 .maininfoabout {
+
   background: pink;
   font-size: 75px;
   font-family: 'Poppins', sans-serif;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    cursor: crosshair;
+}
+
+.mptext {
+  padding-bottom: 0;
+    transition-duration: 0.2s;
+
+}
+.mptext:hover {
+  padding-bottom: 20px;
+  transition-duration: 0.2s;
+  color: #e3e3e3;
 }
