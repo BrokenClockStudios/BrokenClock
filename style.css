@@ -18,6 +18,12 @@ body {
   grid-column-start: 1;
   grid-column-end: 3;
 }
+.mpbigassfont {
+    font-size: 100px;
+}
+.mpkindabigassfont {
+  font-size: 50px;
+}
 
 .maininfoblog {
   background: #A7E8BD;
