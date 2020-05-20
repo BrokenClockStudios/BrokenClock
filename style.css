@@ -20,7 +20,7 @@ body {
 }
 
 .maininfoblog {
-  background: blue;
+  background: #A7E8BD;
   font-size: 75px;
   font-family: 'Poppins', sans-serif;
   text-align: center;
@@ -49,5 +49,14 @@ body {
 .mptext:hover {
   padding-bottom: 20px;
   transition-duration: 0.2s;
-  color: #e3e3e3;
+}
+
+.mpdivide {
+  color: white;
+  background: black;
+  font-family: 'Stylish', sans-serif;
+  font-size: 100px;
+  text-align: center;
+  grid-column-start: 1;
+  grid-column-end: 3;
 }
