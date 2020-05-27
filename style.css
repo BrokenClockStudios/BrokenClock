@@ -25,8 +25,7 @@ body {
   font-size: 50px;
 }
 
-.maininfoblog {
-  background: #A7E8BD;
+.maininfo {
   font-size: 75px;
   font-family: 'Poppins', sans-serif;
   text-align: center;
@@ -34,17 +33,6 @@ body {
   justify-content: center;
   align-items: center;
   cursor: crosshair;
-}
-
-.maininfoabout {
-
-  background: pink;
-  font-size: 75px;
-  font-family: 'Poppins', sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-    cursor: crosshair;
 }
 
 .mptext {
