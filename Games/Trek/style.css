@@ -1,0 +1,29 @@
+body {
+  margin:0px;
+  padding:0px;
+ }
+
+.mpcontainer {
+  display: grid;
+  grid-column-gap: 0px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto 300px auto 300px;
+  cursor: crosshair;
+}
+.mptop {
+  color: white;
+  background: black;
+  font-family: 'Stylish', sans-serif;
+  font-size: 100px;
+  text-align: center;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.mpbigassfont {
+    font-size: 100px;
+}
+
+.mpkindabigassfont {
+  font-size: 50px;
+}
