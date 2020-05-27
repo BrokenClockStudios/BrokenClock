@@ -6,7 +6,7 @@ body {
   display: grid;
   grid-column-gap: 0px;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: auto 300px;
+  grid-template-rows: auto 300px auto 300px;
   cursor: crosshair;
 }
 .mptop {
