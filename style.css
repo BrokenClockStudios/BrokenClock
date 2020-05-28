@@ -38,7 +38,6 @@ body {
   justify-content: center;
   align-items: center;
   cursor: crosshair;
-  height: 200px;
   display: flex;
 }
 }
