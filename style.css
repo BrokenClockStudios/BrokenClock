@@ -9,21 +9,21 @@ body {
  }
 .mpcontainer {
   display: grid;
-  grid-column-gap: 0px;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto 300px auto 300px;
   cursor: crosshair;
 }
+
 .mptop {
   color: white;
   background: black;
   font-family: 'Stylish', sans-serif;
   font-size: 100px;
   text-align: center;
-  display: flex;
   grid-column-start: 1;
   grid-column-end: 3;
 }
+
 .mpbigassfont {
     font-size: 100px;
 }
@@ -35,10 +35,7 @@ body {
   font-size: 75px;
   font-family: 'Poppins', sans-serif;
   text-align: center;
-<<<<<<< HEAD
-=======
   display: flex;
->>>>>>> parent of ca93184... seeing if height fixes anything.
   justify-content: center;
   align-items: center;
   cursor: crosshair;
