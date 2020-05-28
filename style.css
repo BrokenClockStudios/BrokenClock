@@ -20,6 +20,7 @@ body {
   font-family: 'Stylish', sans-serif;
   font-size: 100px;
   text-align: center;
+  display: flex;
   grid-column-start: 1;
   grid-column-end: 3;
 }
