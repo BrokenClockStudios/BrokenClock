@@ -35,12 +35,14 @@ body {
   font-size: 75px;
   font-family: 'Poppins', sans-serif;
   text-align: center;
-  height: auto;
+<<<<<<< HEAD
+=======
+  display: flex;
+>>>>>>> parent of ca93184... seeing if height fixes anything.
   justify-content: center;
   align-items: center;
   cursor: crosshair;
   display: flex;
-}
 }
 
 .mptext {
