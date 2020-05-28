@@ -50,21 +50,3 @@ p {
   align-items: center;
   cursor: crosshair;
 }
-
-.rttxtl {
-  transform: rotate(0deg);
-    transition-duration: 0.1s;
-      transition-delay: 0.1s;
-
-}
-.rttxtl:hover {
-  transform: rotate(10deg);
-}
-.rttxtr {
-  transform: rotate(0deg);
-  transition-duration: 0.1s;
-  transition-delay: 0.1s;
-}
-.rttxtr:hover {
-  transform: rotate(-10deg);
-}
