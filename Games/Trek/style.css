@@ -76,13 +76,13 @@ p {
 
 .storescontainer {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 10vw;
   cursor: crosshair;
 }
 
 .storessteam {
-  content:url("https://cdn.freebiesupply.com/logos/large/2x/steam-1-logo-png-transparent.png");
+  content:url("https://brokenclockstudios.ga/cdn/steam_logo_b&w.png");
   width: 10vw;
   background: transparent;
   display: block;
