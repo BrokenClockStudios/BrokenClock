@@ -83,7 +83,7 @@ p {
 
 .storessteam {
   content:url("https://brokenclockstudios.ga/cdn/steam_logo_b&w.png");
-  width: 10vw;
+  height: 10vw;
   background: transparent;
   display: block;
     margin: 0 auto;
@@ -91,6 +91,20 @@ transition-duration: 0.1s;
 }
 
 .storessteam:hover {
+  margin-left: 50px auto;
+  transition-duration: 0.1s;
+}
+
+.storesitch {
+  content:url("https://brokenclockstudios.ga/cdn/logo-black-new.svg");
+  height: 10vw;
+  background: transparent;
+  display: block;
+    margin: 0 auto;
+transition-duration: 0.1s;
+}
+
+.storesitch:hover {
   margin-left: 50px auto;
   transition-duration: 0.1s;
 }
