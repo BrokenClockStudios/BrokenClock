@@ -1,6 +1,7 @@
 body {
   margin:0px;
   padding:0px;
+  scroll-behavior: smooth;
  }
 
 h1 {
@@ -20,7 +21,7 @@ p {
   grid-row-gap: 3px;
   grid-column-gap: 3px;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: auto 300px auto;
+  grid-template-rows: auto 25vw auto auto 25vw 25vw 25vw 25vw;
   cursor: crosshair;
 }
 .mptop {
@@ -71,4 +72,15 @@ p {
 }
 .rttxtr:hover {
   transform: rotate(-10deg);
+}
+
+.storescontainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 10vw;
+  cursor: crosshair;
+}
+
+.storesimagehoder {
+
 }
