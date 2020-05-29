@@ -81,6 +81,16 @@ p {
   cursor: crosshair;
 }
 
-.storesimagehoder {
+.storessteam {
+  content:url("https://cdn.freebiesupply.com/logos/large/2x/steam-1-logo-png-transparent.png");
+  width: 10vw;
+  background: transparent;
+  display: block;
+    margin: 0 auto;
+transition-duration: 0.1s;
+}
 
+.storessteam:hover {
+  margin-left: 50px auto;
+  transition-duration: 0.1s;
 }
