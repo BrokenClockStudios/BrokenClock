@@ -82,9 +82,15 @@ p {
 }
 
 .storessteam {
-  content:url("https://raw.githubusercontent.com/BrokenClockStudios/BrokenClock/master/CDN/Steam_logo_Color.png");
+  content:url("https://cdn.freebiesupply.com/logos/large/2x/steam-1-logo-png-transparent.png");
   width: 10vw;
-  color: red;
+  background: transparent;
   display: block;
     margin: 0 auto;
+transition-duration: 0.1s;
+}
+
+.storessteam:hover {
+  margin-left: 50px auto;
+  transition-duration: 0.1s;
 }
