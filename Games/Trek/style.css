@@ -81,6 +81,10 @@ p {
   cursor: crosshair;
 }
 
-.storesimagehoder {
-
+.storessteam {
+  content:url("https://raw.githubusercontent.com/BrokenClockStudios/BrokenClock/master/CDN/Steam_logo_Color.png");
+  width: 10vw;
+  color: red;
+  display: block;
+    margin: 0 auto;
 }
