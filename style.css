@@ -24,6 +24,7 @@ body {
   grid-column-end: 3;
 }
 
+/* only the best fonts */
 .mpbigassfont {
     font-size: 100px;
 }
