@@ -33,6 +33,7 @@ body {
   text-align: center;
   grid-column-start: 1;
   grid-column-end: 3;
+  height: 100vh;
 }
 
 /* only the best fonts */
