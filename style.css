@@ -21,7 +21,7 @@ body {
 .mpcontainer {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: auto 300px auto 300px;
+  grid-template-rows:
   cursor: crosshair;
 }
 
@@ -49,11 +49,11 @@ body {
   font-size: 75px;
   font-family: 'Poppins', sans-serif;
   text-align: center;
-  display: flex;
   justify-content: center;
   align-items: center;
   cursor: crosshair;
   display: flex;
+  height: 50vh;
 }
 
 .mptext {
