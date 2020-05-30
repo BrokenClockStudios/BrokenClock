@@ -26,7 +26,6 @@ body {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows:
-  cursor: crosshair;
 }
 
 .mptop {
@@ -55,7 +54,6 @@ body {
   text-align: center;
   justify-content: center;
   align-items: center;
-  cursor: crosshair;
   display: flex;
   height: 50vh;
 }
