@@ -5,14 +5,17 @@ a {
 
 @font-face {
     font-family: 'brokenclockmedium';
-    src: url('CDN/Fonts/Brokenclockv1/brokenclock-zerofix-webfont.woff2') format('woff2'),
-         url('CDN/Fonts/Brokenclockv1/brokenclock-zerofix-webfont.woff') format('woff'),
-         url('CDN/Fonts/Brokenclockv1/brokenclock-zerofix-webfont.ttf') format('truetype'),
-         url('CDN/Fonts/Brokenclockv1/brokenclock-zerofix-webfont.svg#brokenclockmedium') format('svg');
+    src: url('CDN/Fonts/BrokenClockV2/brokenclockfix-webfont.eot');
+    src: url('CDN/Fonts/BrokenClockV2/brokenclockfix-webfont.eot?#iefix') format('embedded-opentype'),
+         url('CDN/Fonts/BrokenClockV2/brokenclockfix-webfont.woff2') format('woff2'),
+         url('CDN/Fonts/BrokenClockV2/brokenclockfix-webfont.woff') format('woff'),
+         url('CDN/Fonts/BrokenClockV2/brokenclockfix-webfont.ttf') format('truetype'),
+         url('CDN/Fonts/BrokenClockV2/brokenclockfix-webfont.svg#brokenclockmedium') format('svg');
     font-weight: normal;
     font-style: normal;
 
 }
+
 body {
   margin: 0px;
   padding: 0px;
