@@ -3,6 +3,16 @@ a {
   text-decoration: none;
 }
 
+@font-face {
+    font-family: 'brokenclockmedium';
+    src: url('CDN/Fonts/Brokenclockv1/brokenclock-zerofix-webfont.woff2') format('woff2'),
+         url('CDN/Fonts/Brokenclockv1/brokenclock-zerofix-webfont.woff') format('woff'),
+         url('CDN/Fonts/Brokenclockv1/brokenclock-zerofix-webfont.ttf') format('truetype'),
+         url('CDN/Fonts/Brokenclockv1/brokenclock-zerofix-webfont.svg#brokenclockmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
 body {
   margin: 0px;
   padding: 0px;
@@ -18,7 +28,7 @@ body {
 .mptop {
   color: white;
   background: black;
-  font-family: 'Stylish', sans-serif;
+  font-family: 'brokenclockmedium';
   font-size: 100px;
   text-align: center;
   grid-column-start: 1;
@@ -58,8 +68,7 @@ body {
 .mpdivide {
   color: white;
   background: black;
-  font-family: 'Stylish', sans-serif;
-  font-size: 100px;
+  font-family: 'brokenclockmedium';  font-size: 100px;
   text-align: center;
   grid-column-start: 1;
   grid-column-end: 3;
