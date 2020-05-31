@@ -28,8 +28,14 @@ body {
 }
 
 .mpcontainer {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+    flex: 1;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.bigflex {
+  display: flex;
 }
 
 .mptop {
@@ -41,6 +47,8 @@ body {
   grid-column-start: 1;
   grid-column-end: 3;
   height: 100vh;
+    flex: 1;
+
 }
 
 /* only the best fonts */
@@ -59,6 +67,8 @@ body {
   justify-content: center;
   align-items: center;
   display: flex;
+  flex: 1;
+    flex-wrap: wrap;
   height: 44vh;
 }
 
@@ -80,4 +90,7 @@ body {
   grid-column-start: 1;
   grid-column-end: 3;
   height: 12vh;
+    flex: 1;
+
+
 }
