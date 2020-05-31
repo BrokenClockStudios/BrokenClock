@@ -36,6 +36,9 @@ body {
 
 .bigflex {
   display: flex;
+  flex-wrap: wrap;
+    width: minmax(1000px, 50%);
+
 }
 
 .mptop {
@@ -68,8 +71,8 @@ body {
   align-items: center;
   display: flex;
   flex: 1;
-    flex-wrap: wrap;
   height: 44vh;
+  width: minmax(100px, 50%);
 }
 
 .mptext {
