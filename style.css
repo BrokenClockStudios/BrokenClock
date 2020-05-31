@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 a {
   color: black;
   text-decoration: none;
@@ -20,12 +24,12 @@ body {
   margin: 0px;
   padding: 0px;
   background: #242424;
+  scroll-behavior: smooth;
 }
 
 .mpcontainer {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows:
 }
 
 .mptop {
@@ -55,7 +59,7 @@ body {
   justify-content: center;
   align-items: center;
   display: flex;
-  height: 30vh;
+  height: 44vh;
 }
 
 .mptext {
@@ -75,4 +79,5 @@ body {
   text-align: center;
   grid-column-start: 1;
   grid-column-end: 3;
+  height: 12vh;
 }
