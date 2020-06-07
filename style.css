@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 a {
   color: black;
   text-decoration: none;
@@ -5,24 +9,35 @@ a {
 
 @font-face {
     font-family: 'brokenclockmedium';
-    src: url('CDN/Fonts/Brokenclockv1/brokenclock-zerofix-webfont.woff2') format('woff2'),
-         url('CDN/Fonts/Brokenclockv1/brokenclock-zerofix-webfont.woff') format('woff'),
-         url('CDN/Fonts/Brokenclockv1/brokenclock-zerofix-webfont.ttf') format('truetype'),
-         url('CDN/Fonts/Brokenclockv1/brokenclock-zerofix-webfont.svg#brokenclockmedium') format('svg');
+    src: url('CDN/Fonts/BrokenClockV2/brokenclockfix-webfont.eot');
+    src: url('CDN/Fonts/BrokenClockV2/brokenclockfix-webfont.eot?#iefix') format('embedded-opentype'),
+         url('CDN/Fonts/BrokenClockV2/brokenclockfix-webfont.woff2') format('woff2'),
+         url('CDN/Fonts/BrokenClockV2/brokenclockfix-webfont.woff') format('woff'),
+         url('CDN/Fonts/BrokenClockV2/brokenclockfix-webfont.ttf') format('truetype'),
+         url('CDN/Fonts/BrokenClockV2/brokenclockfix-webfont.svg#brokenclockmedium') format('svg');
     font-weight: normal;
     font-style: normal;
 
 }
+
 body {
   margin: 0px;
   padding: 0px;
+  background: #242424;
+  scroll-behavior: smooth;
 }
 
 .mpcontainer {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows:
-  cursor: crosshair;
+    flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.bigflex {
+  display: flex;
+  flex-wrap: wrap;
+    width: minmax(1000px, 50%);
+
 }
 
 .mptop {
@@ -34,26 +49,29 @@ body {
   grid-column-start: 1;
   grid-column-end: 3;
   height: 100vh;
+    flex: 1;
+
 }
 
 /* only the best fonts */
 .mpbigassfont {
-  font-size: 100px;
+  font-size: 10vh;
 }
 
 .mpkindabigassfont {
-  font-size: 50px;
+  font-size: 10vh;
 }
 
 .maininfo {
-  font-size: 75px;
-  font-family: 'Poppins', sans-serif;
+  font-size: 15vh;
+  font-family: 'brokenclockmedium';
   text-align: center;
   justify-content: center;
   align-items: center;
-  cursor: crosshair;
   display: flex;
-  height: 50vh;
+  flex: 1;
+  height: 44vh;
+  width: minmax(100px, 50%);
 }
 
 .mptext {
@@ -68,9 +86,13 @@ body {
 
 .mpdivide {
   color: white;
-  background: black;
-  font-family: 'brokenclockmedium';  font-size: 100px;
+  background: #242424;
+  font-family: 'brokenclockmedium';  font-size: 10vh;
   text-align: center;
   grid-column-start: 1;
   grid-column-end: 3;
+  height: 12vh;
+    flex: 1;
+
+
 }
